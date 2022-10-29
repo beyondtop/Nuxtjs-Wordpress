@@ -69,14 +69,14 @@ export default {
   // 将此处2个地址改为自己的地址
   proxy: {
     '/api': {
-      // target: 'https://www.xuanmo.xin',
+      // target: 'http://wp.life97.top',
       target: 'http://localhost:5100',
       pathRewrite: {
         '^/api': '/'
       }
     },
     '/wp-content': {
-      // target: 'https://www.xuanmo.xin'
+      // target: 'http://wp.life97.top'
       target: 'http://localhost:5100'
     }
   },
